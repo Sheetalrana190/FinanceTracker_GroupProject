@@ -1,0 +1,15 @@
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\bin\Debug\net8.0\FinanceTracker.exe
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\bin\Debug\net8.0\FinanceTracker.deps.json
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\bin\Debug\net8.0\FinanceTracker.runtimeconfig.json
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\bin\Debug\net8.0\FinanceTracker.dll
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\bin\Debug\net8.0\FinanceTracker.pdb
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.AssemblyInfoInputs.cache
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.AssemblyInfo.cs
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.csproj.CoreCompileInputs.cache
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.sourcelink.json
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.dll
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\refint\FinanceTracker.dll
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.pdb
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.genruntimeconfig.cache
+C:\Users\valer\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\ref\FinanceTracker.dll
