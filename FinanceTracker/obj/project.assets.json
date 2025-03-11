@@ -106,23 +106,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\arun7\\.nuget\\packages\\": {},
+    "C:\\Users\\loare\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arun7\\Source\\Repos\\FinanceTracker_GroupProject\\FinanceTracker\\FinanceTracker.csproj",
+      "projectUniqueName": "C:\\Users\\loare\\Source\\Repos\\FinanceTracker_GroupProject\\FinanceTracker\\FinanceTracker.csproj",
       "projectName": "FinanceTracker",
-      "projectPath": "C:\\Users\\arun7\\Source\\Repos\\FinanceTracker_GroupProject\\FinanceTracker\\FinanceTracker.csproj",
-      "packagesPath": "C:\\Users\\arun7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arun7\\Source\\Repos\\FinanceTracker_GroupProject\\FinanceTracker\\obj\\",
+      "projectPath": "C:\\Users\\loare\\Source\\Repos\\FinanceTracker_GroupProject\\FinanceTracker\\FinanceTracker.csproj",
+      "packagesPath": "C:\\Users\\loare\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\loare\\Source\\Repos\\FinanceTracker_GroupProject\\FinanceTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\arun7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\loare\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -131,6 +131,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
