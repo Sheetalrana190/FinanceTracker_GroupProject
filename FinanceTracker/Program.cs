@@ -4,14 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World! !!! !!! ");
+            Console.WriteLine("Started working on FinanceTracker.cs");
 
 
-            Console.WriteLine("Hello, World! !!! !!! ");
-
-            Console.WriteLine("Hello, World ####  ");
-
-            Console.WriteLine("Hello Everyone ");
+    
         }
     }
 }
