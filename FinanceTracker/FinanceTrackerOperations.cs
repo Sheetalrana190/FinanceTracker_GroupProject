@@ -17,5 +17,17 @@ namespace FinanceTracker
             }
             return null;
         }
+
+        // Method to remove a transaction by date
+        public bool RemoveTransactionByDate(List<Transaction> transactions, DateTime date)
+        {
+            var transaction = FindTransactionByDate(transactions, date);
+            if (transaction != null)
+            {
+                transactions.Remove(transaction);
+                return true;
+            }
+            return false;
+        }
     }
 }
