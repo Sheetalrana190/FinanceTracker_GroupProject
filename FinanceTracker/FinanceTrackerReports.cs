@@ -9,4 +9,9 @@ namespace FinanceTracker
     class FinanceTrackerReports
     {
     }
+
+    public interface IReportGenerator
+    {
+        void GenerateReport(List<Transaction> transactions);
+    }
 }
