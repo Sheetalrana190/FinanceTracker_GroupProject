@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace FinanceTracker
 {
-    class FinanceTrackerUI
+    public class FinanceTrackerUI
     {
+        // List to store transactions
+        private List<Transaction> transactions;
+
+        // Constructor
+        public FinanceTrackerUI()
+        {
+            transactions = new List<Transaction>();
+        }
     }
 }
