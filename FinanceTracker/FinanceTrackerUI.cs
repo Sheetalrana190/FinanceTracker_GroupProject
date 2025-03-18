@@ -16,5 +16,13 @@ namespace FinanceTracker
         {
             transactions = new List<Transaction>();
         }
+
+        // Method to add a transaction
+        public void AddTransaction(Transaction transaction)
+        {
+            transactions.Add(transaction);
+            Console.WriteLine("Transaction added successfully.");
+        }
+
     }
 }
