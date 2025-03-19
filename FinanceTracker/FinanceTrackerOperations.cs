@@ -29,5 +29,18 @@ namespace FinanceTracker
             }
             return false;
         }
+
+        // Method to handle errors
+        public void HandleError(Action action)
+        {
+            try
+            {
+                action();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
     }
 }
