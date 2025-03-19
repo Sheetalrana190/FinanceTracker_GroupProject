@@ -42,5 +42,23 @@ namespace FinanceTracker
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
+
+        // Method to display transactions within a date range
+        public void DisplayTransactionsByDateRange(List<Transaction> transactions, DateTime startDate, DateTime endDate)
+        {
+            foreach (var transaction in transactions)
+            {
+                if (transaction.Date >= startDate && transaction.Date <= endDate)
+                {
+                    transaction.DisplayTransaction();
+                }
+            }
+        }
+
+        // Method to sort transactions by amount
+        public void SortTransactionsByAmount(List<Transaction> transactions)
+        {
+            transactions.Sort((x, y) => x.Amount.CompareTo(y.Amount));
+        }
     }
 }
