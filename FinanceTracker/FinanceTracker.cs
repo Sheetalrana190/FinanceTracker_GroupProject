@@ -25,5 +25,46 @@ namespace FinanceTracker
             Amount = amount;
             Type = type;
         }
+
+        // Abstract method to display transaction details
+        public abstract void DisplayTransaction();
+    }
+
+    // Derived class for income transactions
+    public class IncomeTransaction : Transaction
+    {
+        public string Source { get; set; }
+
+        // Constructor
+        public IncomeTransaction(DateTime date, decimal amount, string source)
+            : base(date, amount, TransactionType.Income)
+        {
+            Source = source;
+        }
+
+        // Overriding the abstract method
+        public override void DisplayTransaction()
+        {
+            Console.WriteLine($"Income: {Amount:C} from {Source} on {Date:d}");
+        }
+    }
+
+    // Derived class for expense transactions
+    public class ExpenseTransaction : Transaction
+    {
+        public string Category { get; set; }
+
+        // Constructor
+        public ExpenseTransaction(DateTime date, decimal amount, string category)
+            : base(date, amount, TransactionType.Expense)
+        {
+            Category = category;
+        }
+
+        // Overriding the abstract method
+        public override void DisplayTransaction()
+        {
+            Console.WriteLine($"Expense: {Amount:C} for {Category} on {Date:d}");
+        }
     }
 }
