@@ -65,5 +65,18 @@ namespace FinanceTracker
                 }
             }
         }
+        // Method to add income
+        private static void AddIncome(FinanceTrackerUI ui)
+        {
+            Console.Write("Enter date (yyyy-mm-dd): ");
+            DateTime date = DateTime.Parse(Console.ReadLine());
+            Console.Write("Enter amount: ");
+            decimal amount = decimal.Parse(Console.ReadLine());
+            Console.Write("Enter source: ");
+            string source = Console.ReadLine();
+
+            var income = new IncomeTransaction(date, amount, source);
+            ui.AddTransaction(income);
+        }
     }
 }
