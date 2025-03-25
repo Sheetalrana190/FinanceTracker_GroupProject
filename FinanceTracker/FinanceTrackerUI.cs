@@ -64,7 +64,16 @@ namespace FinanceTracker
             return totalExpenses;
         }
 
+        // Method to display summary
+        public void DisplaySummary()
+        {
+            decimal totalIncome = CalculateTotalIncome();
+            decimal totalExpenses = CalculateTotalExpenses();
+            decimal balance = totalIncome - totalExpenses;
 
-
+            Console.WriteLine($"Total Income: {totalIncome:C}");
+            Console.WriteLine($"Total Expenses: {totalExpenses:C}");
+            Console.WriteLine($"Balance: {balance:C}");
+        }
     }
 }
