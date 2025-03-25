@@ -91,5 +91,21 @@ namespace FinanceTracker
             var expense = new ExpenseTransaction(date, amount, category);
             ui.AddTransaction(expense);
         }
+        // Method to display transactions by type
+        private static void DisplayTransactionsByType(FinanceTrackerUI ui)
+        {
+            Console.WriteLine("Select transaction type:");
+            Console.WriteLine("1. Income");
+            Console.WriteLine("2. Expense");
+            if (int.TryParse(Console.ReadLine(), out int typeChoice))
+            {
+                TransactionType type = (typeChoice == 1) ? TransactionType.Income : TransactionType.Expense;
+                ui.DisplayTransactionsByType(type);
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a number.");
+            }
+        }
     }
 }
