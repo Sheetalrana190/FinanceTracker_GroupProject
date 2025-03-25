@@ -50,6 +50,20 @@ namespace FinanceTracker
             return totalIncome;
         }
 
+        // Method to calculate total expenses
+        public decimal CalculateTotalExpenses()
+        {
+            decimal totalExpenses = 0;
+            foreach (var transaction in transactions)
+            {
+                if (transaction.Type == TransactionType.Expense)
+                {
+                    totalExpenses += transaction.Amount;
+                }
+            }
+            return totalExpenses;
+        }
+
 
 
     }
