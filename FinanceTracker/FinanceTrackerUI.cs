@@ -36,6 +36,18 @@ namespace FinanceTracker
             }
         }
 
+        // Method to display transactions by type
+        public void DisplayTransactionsByType(TransactionType type)
+        {
+            foreach (var transaction in transactions)
+            {
+                if (transaction.Type == type)
+                {
+                    transaction.DisplayTransaction();
+                }
+            }
+        }
+
 
 
     }
