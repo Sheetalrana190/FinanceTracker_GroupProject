@@ -28,3 +28,11 @@ C:\Users\loare\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug
 C:\Users\loare\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.pdb
 C:\Users\loare\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.genruntimeconfig.cache
 C:\Users\loare\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\ref\FinanceTracker.dll
+C:\Users\Admin\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.AssemblyInfo.cs
+C:\Users\Admin\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.sourcelink.json
+C:\Users\Admin\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.dll
+C:\Users\Admin\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\refint\FinanceTracker.dll
+C:\Users\Admin\Source\Repos\FinanceTracker_GroupProject\FinanceTracker\obj\Debug\net8.0\FinanceTracker.pdb
