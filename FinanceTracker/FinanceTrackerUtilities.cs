@@ -65,6 +65,7 @@ namespace FinanceTracker
                 }
             }
         }
+
         // Method to add income
         private static void AddIncome(FinanceTrackerUI ui)
         {
