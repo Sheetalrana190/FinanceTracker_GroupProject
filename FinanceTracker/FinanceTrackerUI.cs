@@ -24,6 +24,15 @@ namespace FinanceTracker
             Console.WriteLine("Transaction added successfully.");
         }
 
+        // Method to display all transactions
+        public void DisplayAllTransactions()
+        {
+            foreach (var transaction in transactions)
+            {
+                transaction.DisplayTransaction();
+            }
+        }
+
         // Method to display transactions by type
         public void DisplayTransactionsByType(TransactionType type)
         {
