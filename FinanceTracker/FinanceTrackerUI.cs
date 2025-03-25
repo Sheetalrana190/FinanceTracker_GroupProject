@@ -36,16 +36,18 @@ namespace FinanceTracker
             }
         }
 
-        // Method to display transactions by type
-        public void DisplayTransactionsByType(TransactionType type)
+        // Method to calculate total income
+        public decimal CalculateTotalIncome()
         {
+            decimal totalIncome = 0;
             foreach (var transaction in transactions)
             {
-                if (transaction.Type == type)
+                if (transaction.Type == TransactionType.Income)
                 {
-                    transaction.DisplayTransaction();
+                    totalIncome += transaction.Amount;
                 }
             }
+            return totalIncome;
         }
 
 
